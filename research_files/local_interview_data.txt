@@ -1,0 +1,8 @@
+Title: Internal HR Survey on Remote Work 2024
+Author: Jane Doe, VP of Human Resources
+
+According to our internal Q3 survey of 5,000 employees, the shift to a hybrid remote work model has yielded mixed, but generally positive, results. 
+
+A significant majority, 78% of respondents, reported that working from home at least three days a week improved their work-life balance and reduced burnout. Furthermore, our internal metrics show a 12% increase in overall code commits and ticket resolutions on the days employees work remotely, suggesting a boost in focused productivity.
+
+However, the remote model is not without its drawbacks. 45% of new hires reported feeling "disconnected" from the company culture, and cross-departmental collaboration meetings have dropped by 20%. Our conclusion is that while remote work drives individual productivity, we must invest heavily in deliberate, virtual team-building to maintain innovation and company culture.

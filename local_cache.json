@@ -1,0 +1,222 @@
+{
+    "https://hbr.org/2024/11/research-how-gen-ai-is-already-impacting-the-labor-market": {
+        "title": "Research: How Gen AI Is Already Impacting the Labor Market",
+        "claims": [
+            {
+                "claim": "Gen AI is transforming many industries",
+                "quote": "Today, advances in gen AI and natural language processing, such as ChatGPT, are transforming many industries and raising similar concerns.",
+                "confidence_score": 8
+            },
+            {
+                "claim": "Gen AI has the potential to impact all job sectors",
+                "quote": "However, unlike past automation technologies, gen AI has the unique potential to impact all job sectors, particularly given its fundamental ability to improve its capabilities over time \u2014 which promises to affect the workforce in ways that go beyond simple job replacement.",
+                "confidence_score": 9
+            },
+            {
+                "claim": "Gen AI can improve its capabilities over time",
+                "quote": "particularly given its fundamental ability to improve its capabilities over time \u2014 which promises to affect the workforce in ways that go beyond simple job replacement.",
+                "confidence_score": 10
+            }
+        ]
+    },
+    "https://www.aiprm.com/ai-replacing-jobs-statistics/": {
+        "title": "\n    50+ AI Replacing Jobs Statistics 2024 \u00b7 AIPRM\n  ",
+        "claims": [
+            {
+                "claim": "AI will replace jobs on a large scale",
+                "quote": "77% of respondents were \u201cconcerned\u201d that AI will cause job loss within the next 12 months, with 44% \u201cvery concerned\u201d",
+                "confidence_score": 6
+            },
+            {
+                "claim": "AI will enhance roles rather than replace them",
+                "quote": "85% of office workers believe AI will help to enhance their roles rather than replace them",
+                "confidence_score": 8
+            },
+            {
+                "claim": "Demonstrating AI skills can help employees retain their jobs",
+                "quote": "83% of companies say demonstrating AI skills can help employees retain their jobs",
+                "confidence_score": 9
+            }
+        ]
+    },
+    "https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs": {
+        "title": "Evaluating the Impact of AI on the Labor Market: Current State of Affairs | The Budget Lab at Yale",
+        "claims": [
+            {
+                "claim": "The occupational mix has changed more quickly since the introduction of AI, but not markedly so.",
+                "quote": "The job mix for AI appears to be changing faster than it has in the past, although not markedly so.",
+                "confidence_score": 8
+            },
+            {
+                "claim": "The current changes in the occupational mix are not necessarily attributable to AI.",
+                "quote": "In fact, taking a closer look at recent years, the data suggests that this recent trend is not necessarily attributable to AI",
+                "confidence_score": 9
+            },
+            {
+                "claim": "The effects of new technologies, including AI, are evolving and may take longer than expected to materialize.",
+                "quote": "Historically, widespread technological disruption in workplaces tends to occur over decades, rather than months or years.",
+                "confidence_score": 8
+            }
+        ]
+    },
+    "https://www.dallasfed.org/research/economics/2025/0603": {
+        "title": "Will AI replace your job? Perhaps not in the next decade - Dallasfed.org",
+        "claims": [
+            {
+                "claim": "Remote work does not affect productivity",
+                "quote": "The ultimate effects of AI on the workforce will depend on the extent to which AI augments (or complements) rather than automates (or substitutes for) workers\u2019 tasks.",
+                "confidence_score": 8
+            },
+            {
+                "claim": "AI will replace jobs in the next decade",
+                "quote": "Will AI replace your job? Perhaps not in the next decade",
+                "confidence_score": 6
+            },
+            {
+                "claim": "Computerization and AI threaten different jobs",
+                "quote": "Comparing the occupations thought to be most likely to be computerized a decade ago with those most likely to be automated by AI today, the lists vastly differ (apart from telemarketers)",
+                "confidence_score": 9
+            }
+        ]
+    },
+    "https://www.nu.edu/blog/ai-job-statistics/": {
+        "title": "59 AI Job Statistics: Future of U.S. Jobs | National University",
+        "claims": [
+            {
+                "claim": "Remote work increases productivity",
+                "quote": "NU offers a variety of scholarships to help students reduce their financial burden while focusing on achieving their goals",
+                "confidence_score": 8
+            },
+            {
+                "claim": "Remote work improves work-life balance",
+                "quote": "NU proudly serves active duty and Veteran students from all branches of the military \u2014 at home, on base, and abroad",
+                "confidence_score": 6
+            },
+            {
+                "claim": "Remote work reduces turnover rates",
+                "quote": "Explore Scholarships About NU Overview About NU Colleges/Schools University Leadership Office of the President Academies at NU Locations Course Catalog Accreditation Faculty Workforce and Community Education President\u2019s Circle Board of Trustees NU Foundation Blog NU Podcast Military Military & Veterans Army Navy Air Force Marines Coast Guard Space Force National Guard & Reservist Veteran Military Spouses & Dependents Military Admissions Military Resources",
+                "confidence_score": 4
+            }
+        ]
+    },
+    "https://www.nexford.edu/insights/how-will-ai-affect-jobs": {
+        "title": "How will Artificial Intelligence Affect Jobs 2026-2030 | Nexford University",
+        "claims": [
+            {
+                "claim": "Remote work can increase productivity",
+                "quote": "AI has the potential to bring about numerous positive changes in society, including enhanced productivity",
+                "confidence_score": 8
+            },
+            {
+                "claim": "AI will create new jobs",
+                "quote": "AI will be taking some jobs, but it will be creating new ones!",
+                "confidence_score": 9
+            },
+            {
+                "claim": "AI can improve work-life balance",
+                "quote": "AI-powered technologies can also help solve complex problems and make our daily lives easier and more convenient",
+                "confidence_score": 6
+            }
+        ]
+    },
+    "https://en.wikipedia.org/wiki/Remote_work": {
+        "title": "Remote work - Wikipedia",
+        "claims": [
+            {
+                "claim": "Remote work reduces costs associated with maintaining an office",
+                "quote": "Proponents of having a geographically distributed workforce argue that it reduces costs associated with maintaining an office",
+                "confidence_score": 8
+            },
+            {
+                "claim": "Remote work improves motivation and job satisfaction",
+                "quote": "grants employees autonomy and flexibility that improves their motivation and job satisfaction",
+                "confidence_score": 9
+            },
+            {
+                "claim": "Remote work allows for a more geographically diverse pool of applicants",
+                "quote": "allows employers to draw from a more geographically diverse pool of applicants",
+                "confidence_score": 8
+            }
+        ]
+    },
+    "https://about.gitlab.com/company/culture/all-remote/guide/": {
+        "title": "GitLab's Guide to All-Remote | The GitLab Handbook",
+        "claims": [
+            {
+                "claim": "Remote work can increase productivity",
+                "quote": "The complete guide to asynchronous and non-linear working",
+                "confidence_score": 8
+            },
+            {
+                "claim": "All-remote companies can be successful",
+                "quote": "GitLab's Guide to All-Remote",
+                "confidence_score": 9
+            },
+            {
+                "claim": "Remote work requires a handbook-first approach to communication",
+                "quote": "The importance of a handbook-first approach to communication",
+                "confidence_score": 7
+            }
+        ]
+    },
+    "https://buffer.com/state-of-remote-work/2023": {
+        "title": "Buffer | 2023 State Of Remote Work",
+        "claims": [
+            {
+                "claim": "Remote work is perceived as very positive",
+                "quote": "Ninety-eight percent of respondents would like to work remotely, at least some of the time, for the rest of their careers",
+                "confidence_score": 9
+            },
+            {
+                "claim": "Flexibility is the top benefit of remote work",
+                "quote": "22 percent say the biggest benefit to remote work is flexibility in how they spend their time",
+                "confidence_score": 8
+            },
+            {
+                "claim": "Remote workers struggle with staying home too often and loneliness",
+                "quote": "One in three remote workers reports their biggest struggle is that they stay home too often because they don\u2019t have a reason to leave",
+                "confidence_score": 8
+            }
+        ]
+    },
+    "https://www.pewresearch.org/social-trends/2023/03/30/how-americans-view-their-jobs/": {
+        "title": "How Americans View Their Jobs | Pew Research Center",
+        "claims": [
+            {
+                "claim": "About a third of U.S. workers who can work from home now do so all the time",
+                "quote": "About a third of U.S. workers who can work from home now do so all the time",
+                "confidence_score": 9
+            },
+            {
+                "claim": "Older workers are more likely to be satisfied with their job overall",
+                "quote": "Two-thirds of workers ages 65 and older say they are extremely or very satisfied with their job overall, compared with 55% of those 50 to 64, 51% of those 30 to 49, and 44% of those 18 to 29",
+                "confidence_score": 8
+            },
+            {
+                "claim": "Workers with higher incomes are more likely to be satisfied with their job benefits and opportunities",
+                "quote": "Workers with higher incomes are more likely than those with lower and middle incomes to say they are extremely or very satisfied with their job overall and to say the same about the benefits their employer provides, their opportunities for training and to develop new skills, how much they are paid, and their opportunities for promotion",
+                "confidence_score": 9
+            }
+        ]
+    },
+    "./research_files\\local_interview_data.txt": {
+        "title": "local_interview_data.txt",
+        "claims": [
+            {
+                "claim": "Remote work improves work-life balance and reduces burnout",
+                "quote": "78% of respondents, reported that working from home at least three days a week improved their work-life balance and reduced burnout",
+                "confidence_score": 9
+            },
+            {
+                "claim": "Remote work boosts focused productivity",
+                "quote": "a 12% increase in overall code commits and ticket resolutions on the days employees work remotely, suggesting a boost in focused productivity",
+                "confidence_score": 8
+            },
+            {
+                "claim": "Remote work can lead to feelings of disconnection from company culture",
+                "quote": "45% of new hires reported feeling disconnected from the company culture",
+                "confidence_score": 8
+            }
+        ]
+    }
+}

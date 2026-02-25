@@ -1,0 +1,10 @@
+langchain
+langchain-groq
+langgraph
+beautifulsoup4
+requests
+pydantic
+pytest
+scikit-learn
+faiss-cpu
+matplotlib
