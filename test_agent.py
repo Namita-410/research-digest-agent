@@ -15,22 +15,23 @@ def test_empty_unreachable_source():
 
 def test_deduplication():
     """Test 2: Deduplication of duplicate content."""
-    # Mocking two sources saying the exact same thing
+    # Mocking two sources sharing keywords so the TF-IDF math catches them
     mock_state = {
         "extracted_claims": {
-            "source1.com": {"claims": [{"claim": "AI is growing fast.", "quote": "AI grows fast."}]},
-            "source2.com": {"claims": [{"claim": "Artificial Intelligence is expanding rapidly.", "quote": "AI expands rapidly."}]}
-        }
+            "source1.com": {"claims": [{"claim": "Remote work increases productivity.", "quote": "..."}]},
+            "source2.com": {"claims": [{"claim": "Remote work highly increases worker productivity.", "quote": "..."}]}
+        },
+        "topic": "Remote Work" # Don't forget to pass the topic so the LLM doesn't get confused!
     }
     
     result = group_claims(mock_state)
     grouped = result["grouped_data"]
     
-    # The LLM should group these identical concepts into exactly 1 theme
+    # The Math should group these identical concepts into exactly 1 theme
     assert len(grouped) == 1
     assert "source1.com" in grouped[0]["supporting_sources"]
     assert "source2.com" in grouped[0]["supporting_sources"]
-
+    
 def test_conflicting_claims():
     """Test 3: Preservation of conflicting claims."""
     # Mocking two sources completely disagreeing

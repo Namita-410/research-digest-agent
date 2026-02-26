@@ -25,10 +25,10 @@
 
 ---
 ## Remote Work Challenges
-**Summary:** Remote workers may struggle with staying home too often and loneliness, and may feel disconnected from company culture.
+**Summary:** Remote work can lead to feelings of loneliness and disconnection from company culture, with some employees struggling to stay motivated and engaged while working from home.
 
 **Supporting Sources:** https://buffer.com/state-of-remote-work/2023, ./research_files\local_interview_data.txt
 
-**Conflicting Viewpoints:** Some claims suggest remote work can improve work-life balance and reduce burnout.
+**Conflicting Viewpoints:** Some claims suggest remote work can improve motivation and job satisfaction.
 
 ---
