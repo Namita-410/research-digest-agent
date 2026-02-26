@@ -12,14 +12,15 @@ from langchain_core.prompts import ChatPromptTemplate
 from langgraph.graph import StateGraph, START, END
 
 # --- The highly stable Math libraries ---
-from sklearn.feature_extraction.text import TfidfVectorizer
+
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 
-# ==========================================
+
+HF_TOKEN = os.environ.get("HUGGINGFACEHUB_API_TOKEN", "")
 # 1. PYDANTIC MODELS (STRETCH GOAL 1: Confidence Scores)
-# ==========================================
+
 class Claim(BaseModel):
     claim: str = Field(description="The extracted key claim or fact.")
     quote: str = Field(description="An exact, word-for-word quote from the text that proves the claim.")
@@ -38,9 +39,9 @@ class GroupedClaim(BaseModel):
 class DigestStructure(BaseModel):
     groups: List[GroupedClaim] = Field(description="Grouped themes synthesized from all claims.")
 
-# ==========================================
+
 # 2. THE GRAPH STATE & CACHE HELPERS
-# ==========================================
+
 class AgentState(TypedDict):
     topic: str               
     urls: List[str]
@@ -60,9 +61,9 @@ def save_cache(cache_data):
     with open(CACHE_FILE, "w") as f:
         json.dump(cache_data, f, indent=4)
 
-# ==========================================
+
 # 3. GRAPH NODES
-# ==========================================
+
 def ingest_sources(state: AgentState) -> dict:
     print("-> Fetching sources...")
     scraped_data = []
@@ -158,16 +159,27 @@ def group_claims(state: AgentState) -> dict:
     if not all_claims:
         return {"grouped_data": []}
 
-    # --- THE SENIOR ENGINEER PIVOT ---
-    # We use pure TF-IDF math instead of unstable deep-learning models!
+    # --- CUSTOM HUGGING FACE API WRAPPER ---
     claim_texts = [c["claim_text"] for c in all_claims]
-    vectorizer = TfidfVectorizer(stop_words='english')
-    vectors = vectorizer.fit_transform(claim_texts)
     
-    # Calculate the exact same Cosine Similarity matrix
+    # We call the NEW Hugging Face Router API with their officially supported free-tier model!
+    api_url = "https://router.huggingface.co/hf-inference/models/BAAI/bge-small-en-v1.5"
+    headers = {"Authorization": f"Bearer {HF_TOKEN}"}
+    
+    print("   [API CALL] Generating Hugging Face embeddings in the cloud...")
+    response = requests.post(api_url, headers=headers, json={"inputs": claim_texts})
+    
+    if response.status_code == 200:
+        vectors = response.json() 
+    else:
+        print(f"   [WARNING] Hugging Face API failed ({response.status_code}): {response.text}")
+        return {"grouped_data": []}
+    
+    # Calculate Cosine Similarity on the Hugging Face vectors
+    from sklearn.metrics.pairwise import cosine_similarity
     sim_matrix = cosine_similarity(vectors)
     
-    SIMILARITY_THRESHOLD = 0.50 # Lowered slightly for TF-IDF since it looks at exact keywords
+    SIMILARITY_THRESHOLD = 0.70
     clusters = []
     # ... (the rest of the grouping loop remains exactly the same!)
     cluster_labels = [-1] * len(all_claims)
